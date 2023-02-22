@@ -1,5 +1,6 @@
 import { Header } from "./components/header";
 import { Placeholder } from "./components/placeholder";
+import { Filters } from "./components/filters";
 import "./app.css";
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
       <div className="container">
         <div className="filters">
           {/* TODO: Ejercicio 2 - Crea el componente de filtros */}
-          <Placeholder />
+          <Filters />
         </div>
         <div className="summary">
           {/* TODO: Ejercicio 3 - Crear el componente resumen  */}
